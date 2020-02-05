@@ -246,10 +246,10 @@ font-weight:700;
                 </div>
               </div>
               <div class="clearfix"></div>
-							<div class="g-recaptcha" data-sitekey="6LegzNUUAAAAAIoSBwYPyAFrHwUJfOtDQrI-HqoU" required="required"></div>
+							<div class="g-recaptcha" data-sitekey="6LegzNUUAAAAAIoSBwYPyAFrHwUJfOtDQrI-HqoU" data-callback="recaptcha_callback" ></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="2sendMessageButton" class="btn btn-warning btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="bottom_submit" name="submit" class="btn btn-warning btn-xl text-uppercase" type="submit">Send Message</button>
               </div>
             </div>
           </form>
@@ -294,5 +294,8 @@ font-weight:700;
 									document.getElementById('captchaResponse').value = token;
                 });
             });
+function recaptcha_callback() {
+       $('#bottom_submit').removeAttr('disabled');
+        };
 	</script>
 </html>
