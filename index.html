@@ -133,7 +133,7 @@ font-weight:700;
               </div>
             </div>
 						<hr>
-						<div class="g-recaptcha-response" data-sitekey="6LcU0NUUAAAAAJ6UXBnQh3ukji4v02bkbGUDzTzs">
+						<div class="g-recaptcha-response" id="captchaResponse" data-sitekey="6LcU0NUUAAAAAJ6UXBnQh3ukji4v02bkbGUDzTzs">
 						</div>
           </form>
 			</div>
@@ -291,7 +291,8 @@ font-weight:700;
 	<script>
 		grecaptcha.ready(function() {
                 grecaptcha.execute("6LcU0NUUAAAAAJ6UXBnQh3ukji4v02bkbGUDzTzs", {action: "homepage"})
-                .then(function(token) {                                     document.getElementById('captchaResponse').value = token;
+                .then(function(token) {
+									document.getElementById('captchaResponse').value = token;
                 });
             });
 	</script>
