@@ -134,6 +134,7 @@ font-weight:700;
             </div>
 						<hr>
 						<div class="g-recaptcha-response" data-sitekey="6LcU0NUUAAAAAJ6UXBnQh3ukji4v02bkbGUDzTzs">
+						</div>
           </form>
 			</div>
 			</div>
@@ -288,5 +289,10 @@ font-weight:700;
 	</body>
 				<script src="js/script.js"></script>
 	<script>
+		grecaptcha.ready(function() {
+                grecaptcha.execute("6Lc1zqcUAAAAAGjsx7EfSOZGnYmUXRpLqzPirbu5", {action: "homepage"})
+                .then(function(token) {                                     document.getElementById('captchaResponse').value = token;
+                });
+            });
 	</script>
 </html>
