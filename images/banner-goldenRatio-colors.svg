@@ -19,7 +19,7 @@
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="card_goldenRatio-colors.svg">
+   sodipodi:docname="banner-goldenRatio-colors.svg">
   <defs
      id="defs5617">
     <inkscape:path-effect
@@ -983,8 +983,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="251.83123"
-     inkscape:cy="250.08097"
+     inkscape:cx="329.68459"
+     inkscape:cy="177.07792"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1-9"
      showgrid="false"
@@ -1089,7 +1089,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1545,14 +1545,14 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.61764383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2b1100;fill-opacity:1;stroke:none;stroke-width:0.1904411"
-         x="270.51205"
-         y="-89.291916"
+         x="333.76816"
+         y="-88.986473"
          id="text6837"
          transform="scale(0.81630827,1.2250274)"><tspan
            sodipodi:role="line"
            id="tspan6835"
-           x="270.51205"
-           y="-89.291916"
+           x="333.76816"
+           y="-88.986473"
            style="font-weight:bold;fill:#2b1100;stroke-width:0.1904411">RESIDENTIAL PAINTING </tspan></text>
       <flowRoot
          xml:space="preserve"
@@ -1570,49 +1570,49 @@
            id="flowPara6845" /></flowRoot>      <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:6.52459478px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2b1100;fill-opacity:1;stroke:none;stroke-width:0.16311488"
-         x="296.14606"
-         y="-98.065872"
+         x="338.66342"
+         y="-71.145798"
          id="text6837-6"
          transform="scale(0.95926251,1.0424675)"><tspan
            sodipodi:role="line"
            id="tspan6835-1"
-           x="296.14606"
-           y="-98.065872"
+           x="338.66342"
+           y="-71.145798"
            style="fill:#2b1100;stroke-width:0.16311488">www.beardedpaint.com</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.61764383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2b1100;fill-opacity:1;stroke:none;stroke-width:0.1904411"
-         x="372.94348"
-         y="-89.398888"
+         x="459.806"
+         y="-44.193169"
          id="text6837-6-1"
          transform="scale(0.81630827,1.2250274)"><tspan
            sodipodi:role="line"
            id="tspan6835-1-4"
-           x="372.94348"
-           y="-89.398888"
+           x="459.806"
+           y="-44.193169"
            style="font-weight:bold;fill:#2b1100;stroke-width:0.1904411">(512) 757-7573</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:6.04047871px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2b1100;fill-opacity:1;stroke:none;stroke-width:0.15101196"
-         x="216.96878"
-         y="-96.890289"
+         x="242.84065"
+         y="-58.356873"
          id="text6837-6-9"
-         transform="scale(1.0196207,0.98075685)"><tspan
+         transform="scale(1.0196207,0.98075686)"><tspan
            sodipodi:role="line"
            id="tspan6835-1-8"
-           x="216.96878"
-           y="-96.890289"
+           x="242.84065"
+           y="-58.356873"
            style="font-style:italic;fill:#2b1100;stroke-width:0.15101196">Interior - Exterior - Residential - Commercial</tspan></text>
       <ellipse
          style="fill:#241f1c;stroke-width:0.12333811"
          id="path6923"
-         cx="246.76495"
-         cy="-96.781639"
+         cx="246.0166"
+         cy="-68.344162"
          rx="1.1389837"
          ry="1.0818378" />
       <g
          id="g7094"
-         transform="matrix(0.06156259,0,0,0.05666444,189.98589,-121.70947)"
+         transform="matrix(0.06156259,0,0,0.05666444,189.98589,-138.40169)"
          style="fill:#241f1c">
         <g
            id="g7037"
@@ -1675,24 +1675,24 @@
            style="fill:#241f1c" />
       </g>
       <rect
-         style="fill:#241f1c;stroke-width:0.51093793"
+         style="fill:#241f1c;stroke-width:0.44261289"
          id="rect7096"
          width="21.203821"
-         height="67.46875"
+         height="50.630768"
          x="190.95648"
          y="-191.5712" />
       <ellipse
          style="fill:#241f1c;stroke-width:0.12333811"
          id="path6923-3"
-         cx="277.41898"
-         cy="-96.781639"
+         cx="273.86429"
+         cy="-70.027962"
          rx="1.1389837"
          ry="1.0818378" />
       <ellipse
          style="fill:#241f1c;stroke-width:0.12333811"
          id="path6923-3-7"
-         cx="317.67566"
-         cy="-96.932098"
+         cx="304.76654"
+         cy="-69.430061"
          rx="1.1389837"
          ry="1.0818378" />
       <path
