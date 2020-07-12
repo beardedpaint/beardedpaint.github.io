@@ -9,6 +9,7 @@
 		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
 	<body>
+		<!--
 		<nav class="nav-bar">
 			<a class="toggle-button">
 				<span class="bar"></span>
@@ -19,12 +20,28 @@
 				<ul>
 					<li><a href="#top">Home</a></li>
 					<li><a class="js-scroll-trigger" href="#services">Services</a></li>
-					<!--
-					<li><a href="#contact">FAQ</a></li>
-					-->
 				</ul>
 			</div>
 			<a class="contact-btn-nav js-scroll-trigger" href="#bottom-contact">Contact Us</a>
+		</nav>
+		!-->
+		<nav id="navbar">
+			<span class="filler-block"></span>
+			<ul class="navbarlinks">
+				<li><a href="">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+			</ul>
+			<div class="button-container">
+				<a class="contact-btn-nav js-scroll-trigger" href="#bottom-contact">Contact Us</a>
+				<div>
+	<a class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+				</div>
+			</div>
 		</nav>
 		<!-- Banner -->
 		<div id="top" class="banner padding-top:200px;padding-bottom:100px">
@@ -43,48 +60,48 @@
 					<div class="row-contact">
 						<div class="col-md-50p"style="padding: 0 12px 0 12px">
 							<center>
-							<div class="form-group">
-								<input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<input class="form-control" name="tel" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-								<p class="help-block text-danger"></p>
-							</div>
+								<div class="form-group">
+									<input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+									<p class="help-block text-danger"></p>
+								</div>
+								<div class="form-group">
+									<input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+									<p class="help-block text-danger"></p>
+								</div>
+								<div class="form-group">
+									<input class="form-control" name="tel" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+									<p class="help-block text-danger"></p>
+								</div>
 
 						</div>
 							</center>
-						<div class="col-md-50p"style="padding: 0 12px 0 12px"> <div class="form-group">
-								<center>
-								<textarea class="form-control" style="font-size:1.3rem" name="message" type="text" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." rows="7" cols="21"></textarea>
-								<p class="help-block text-danger"></p>
+							<div class="col-md-50p"style="padding: 0 12px 0 12px"> <div class="form-group">
+									<center>
+										<textarea class="form-control" style="font-size:1.3rem" name="message" type="text" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." rows="7" cols="21"></textarea>
+										<p class="help-block text-danger"></p>
+								</div>
+									</center>	
 							</div>
-								</center>	
-						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div class="col-100p" style="border-top: 1px solid #CCC;padding-top:15px;">
 						<div id="success"></div>
 						<center>
-						<button id="sendMessageButton" class="button-banner" type="submit">Send Message <span class="fa fa-angle-right"></span></button>
+							<button id="sendMessageButton" class="button-banner" type="submit">Send Message <span class="fa fa-angle-right"></span></button>
 						</center>
 					</div>
 			</div>
 				</form>
-
+				<span id="about"></span>
 		</div>
 		</div>
 		<!-- About -->
-		<section id="services">
+		<section>
 			<div class="row" style="border-bottom: #00222b solid 1px">
 				<h2 style="margin-bottom:0" class="showcase-h">Proudly Serving:</h2>
 				<h4 style="margin-top:0"class="showcase-h">San Marcos  &#9679 New Braunfels &#9679 Seguin &#9679 Kyle &#9679 Buda</h4>
+		<span id="services"></span>
 			</div>
-			<!--Services -->
 			<div class="row"style="border-bottom: #00222b solid 1px">
 				<h4 class="service-heading" style="adding-top:7rem">Residential Painting</h4>
 				<p class="showcase-text">
@@ -95,10 +112,11 @@
 				</p>
 			</div>
 		</section>
+			<!--Services -->
 		<!--Exterior-->
 		<div class="row row-wrap">
 
-			<div class="services-img" style="background:white url('images/blue_siding.jpg') no-repeat;background-size:cover ">
+			<div class="services-img" style="background:white url('images/blue_siding_kyle-texas-78640.jpg') no-repeat;background-size:cover ">
 			</div>
 
 			<div class="services-text">
@@ -113,12 +131,12 @@
 				<h1>Decks and Fence Stain</h1>
 				<p>Extend the life of your Deck or Fence with a quality wood stain that will guard your deck or fence from all forces of weather, and add charm to your property with a rich color.</p>
 			</div>
-			<div class="services-img" style="background:white url('images/deck.jpeg');background-position:50% 50% ">
+			<div class="services-img" style="background:white url('images/deck-and-fence-new-braunfels-texas-78130.jpg');background-position:50% 50% ">
 			</div>
 		</div>
 		<!--Pressure Washing-->
 		<div class="row row-wrap">
-			<div class="services-img" style="background:white url('images/powerwash.jpg');background-position: 45% ">
+			<div class="services-img" style="background:white url('images/power-wash_pressure-wash_san-marcos-texas-78666.jpg');background-position: 45% ">
 			</div>
 			<div class="services-text">
 				<h1>Pressure Washing</h1>
@@ -131,7 +149,7 @@
 				<h1>Concrete Stain and Seal</h1>
 				<p >Concrete patios, driveways, and garages are the most likely place for oil spills and other messes. Guard your concrete with a concrete seal to minimize unwanted stains and make cleanup easier. Before sealing your concrete, it can be a great idea to stain first with a quality concrete stain to further the appearance of your home.</p>
 			</div>
-			<div class="services-img" style="background:white url('images/concrete_stain_and_seal.jpg');background-position: cover 80%">
+			<div class="services-img" style="background:white url('images/concrete_stain_and_seal_buda-texas-78610.jpg');background-position: cover 80%">
 			</div>
 		</div>
 		<!-- Contact -->
@@ -172,10 +190,10 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="col-100p" style="border-top: 1px solid #CCC;padding-top:15px;">
-													 <div id="success"></div>
-													 <center>
-														 <button id="sendMessageButton" class="button-bottom" type="submit">Send Message <span class="fa fa-angle-right"></span></button>
-													 </center>
+						<div id="success"></div>
+						<center>
+							<button id="sendMessageButton" class="button-bottom" type="submit">Send Message <span class="fa fa-angle-right"></span></button>
+						</center>
 					</div>
 			</div>
 				</form>
@@ -229,4 +247,15 @@ function recaptcha_callback() {
 				};
 	</script>
 	-->
+	<script>
+		window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+		document.getElementById("navbar").style.padding = "0px";
+	} else {
+		document.getElementById("navbar").style.padding = "5px";
+	}
+}
+	</script>
 </html>
