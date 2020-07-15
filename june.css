@@ -35,7 +35,6 @@ section#bottom-contact {
 	background-position: 10%;
 	padding-top:200px;
 	padding-bottom:100px;
-
 }
 
 .form-div {
@@ -84,7 +83,7 @@ textarea {
 	border: solid 1px #CCC;
 	border-radius: 0.2rem;
 	margin-left:auto;
-
+	cursor: pointer;
 }
 .button-bottom {
 	background: #F8FC69;
@@ -95,7 +94,14 @@ textarea {
 	border: solid 0px black;
 	border-radius: 0.2rem;
 	margin-left:auto;
+	cursor: pointer;
 
+}
+.button-banner:hover {
+	background: yellow;
+}
+.button-bottom:hover {
+	background: yellow;
 }
 
 .showcase-h {
@@ -155,6 +161,12 @@ textarea {
 	display:flex;
 	flex-direction:row;
 	align-content: flex-start;
+	flex-flow:row wrap;
+}
+.row-map {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
 	flex-flow:row wrap;
 }
 .contact-child {
