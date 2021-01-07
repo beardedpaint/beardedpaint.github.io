@@ -7,7 +7,6 @@ body, html {
 	height: 100%;
 	padding: 0px;
 	margin: 0px;
-	color: #fff;
 }
 
 section#bottom-contact {
@@ -29,7 +28,7 @@ section#bottom-contact {
 	width:100%;
 }
 .banner {
-	background: url('images/Residential-Painting-Buda-Texas-78610.jpg') blue;
+	background: url('images/Residential-Painting-Buda-Texas-78610.jpg') #212121;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: 10%;
@@ -157,6 +156,7 @@ textarea {
 	align-content: flex-start;
 	flex-flow:row wrap;
 }
+
 .row-contact {
 	display:flex;
 	flex-direction:row;
@@ -200,16 +200,17 @@ text-decoration:none;
 		order:2;
 	}
 	.banner {
-		background: url('images/blue_siding_kyle-texas-78640.jpg') #00222b;
+		background: url('images/blue_siding_kyle-texas-78640.jpg') #292929;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: ;
 		padding: 90px 10px 40px 10px;
 
 	}
-	.form-div {
-
-	}
 }
+
+
+
+
 
 
